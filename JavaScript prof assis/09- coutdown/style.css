@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #07060a;
+    color: #ff0000;
+    font-size: 42px;
+    text-align: center; /*alinha todos objetos "center" dizendo a onde voce quer alinhar*/
+}
+
+#fire{
+    cursor: pointer;/*essa linha muda o ponteiro do mouse para maozinha*/
+}
+
+
+
+img{
+    max-width: 100%; /* faz que a imagem fique responsiva*/
+}
