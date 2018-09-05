@@ -1,0 +1,12 @@
+[
+    { "nome" : "Pessoa 1 ajax" ,
+        "idade" : 25,
+        "sexo" : "F",
+        "pais" : "Brasil"
+    },
+    { "nome" : "Pessoa 2 ajax" ,
+        "idade" : 36,
+        "sexo" : "F",
+        "pais" : "Portugual"
+    }
+]

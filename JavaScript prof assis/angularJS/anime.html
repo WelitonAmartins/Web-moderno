@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="Lista">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>{{ titulo }}</title>
+    <script src="angular.min.js"></script>
+    <script>
+        angular.module('Lista', []).controller('listaController', function($scope, $rootScope){
+            $rootScope.titulo ="Lista Telefonica";
+            $scope.teste ="Lista";
+        });
+    </script>
+</head>
+<body ng-controller="listaController">
+    <h1>{{ teste }}</h1>
+    <div ng-init="checked = true">
+            <label>
+              <input type="checkbox" ng-model="checked" />
+              click aqui
+            </label>
+            <div class="content-area sample-show-hide" ng-show="checked">
+              Bem vindo eu sou well!
+            </div>
+          </div>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="Novo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste</title>
+    <script src="angular.min.js"></script>
+    <script>
+        angular.module('Novo', []).controller('novoController', function($scope){
+            $scope.titulo = "Ola";
+        });
+    
+    </script>
+</head>
+<body ng-controller="novoController">
+    <h1>{{ titulo }}</h1>
+    
+</body>
+</html>
